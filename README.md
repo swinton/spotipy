@@ -5,9 +5,9 @@ Usage
 -----
 1. Install Spotipy from the Python Package Index, e.g. using easy_install:
 
-    $ easy_install spotipy
+        $ easy_install spotipy
 
-2. Usae Spotipy like so:
+2. Use Spotipy like so:
 
         from spotipy import Spotipy
 
