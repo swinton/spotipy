@@ -7,7 +7,9 @@ Usage
 
         $ easy_install spotipy
 
-2. Use Spotipy like so:
+2. Remember to activate assistive device support see <http://www.macspeech.com/extensions/faq/kb.php?article=48>
+
+3. Use Spotipy like so:
 
         from spotipy import Spotipy
 
