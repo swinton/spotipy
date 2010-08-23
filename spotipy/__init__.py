@@ -34,6 +34,7 @@ class Spotipy:
     def __init__(self):
         def make_cmd(menu_item):
             cmd = """osascript<<END
+tell application id "com.apple.ScreenSaver.Engine" to quit
 tell application "Spotify" to activate
 tell application "System Events"
    tell process "Spotify"
